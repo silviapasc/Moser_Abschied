@@ -40,7 +40,7 @@
                                             <cssFile-array>
                                                 <cssFile>
                                                     <field name="href">
-                                                        <String>${pdu}/Moser_Abschied/resources/css/main.css</String>
+                                                        <String>${pdu}/resources/css/main.css</String>
                                                     </field>
                                                     <field name="title">
                                                         <String>Standard</String>
@@ -322,6 +322,10 @@
                                 </field>
                             </documentTypeDescriptor>
                         </documentTypeDescriptor-array>
+                    </entry>
+                    <entry>
+                        <String>enable.project.master.files.support</String>
+                        <Boolean>true</Boolean>
                     </entry>
                     <entry>
                         <String>frameworks.directory.url.with.editor.variables</String>
