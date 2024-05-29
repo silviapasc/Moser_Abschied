@@ -24,7 +24,7 @@
                                             <Integer>2</Integer>
                                         </field>
                                         <field name="uri">
-                                            <String>$pdu/Moser_Abschied/tei_all.rng</String>
+                                            <String>${pdu}/tei_all.rng</String>
                                         </field>
                                     </docTypeSchema>
                                 </field>
@@ -340,9 +340,6 @@
         </options>
     </meta>
     <projectTree name="Moser_Abschied.xpr">
-        <folder path="Moser_Abschied/"/>
-        <file name="Moser_Abschied/Danke.xml"/>
-        <file name="../Downloads/tei_all.compiled.odd"/>
-        <file name="../Downloads/tei_all.rng"/>
+        <folder path="."/>
     </projectTree>
 </project>
