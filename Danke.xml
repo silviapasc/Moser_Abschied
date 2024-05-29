@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Danksagung zu Herrn Dr. Stephan Mosers Pensionierung</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>
+                    Information about distribution of the resource
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>
+                     Information about source from which the resource derives 
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <item>
+                    <persName>
+                        <forename>Yannik</forename>
+                        <surname>Herbst</surname>
+                    </persName>
+                    <email>yannik.herbst@uni-wuerzburg.de</email>
+                    <note>
+                        Vielen herzlichen Dank für Ihre jahrelange Unterstützung!
+                    </note>
+                </item>
+                
+            </list>
+        </body>
+    </text>
+</TEI>
