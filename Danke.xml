@@ -6,31 +6,31 @@
                 <title>Danksagung zu Herrn Dr. Stephan Mosers Pensionierung</title>
             </titleStmt>
             <publicationStmt>
-                <p>
-                    Information about distribution of the resource
-                </p>
+                <p> Information about distribution of the resource </p>
             </publicationStmt>
             <sourceDesc>
-                <p>
-                     Information about source from which the resource derives 
-                </p>
+                <p> Information about source from which the resource derives </p>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
     <text>
         <body>
-            <list>
+            <list><item>
+                    <persName>
+                        <forename>Anton</forename>
+                        <surname>Ehrmanntraut</surname>
+                    </persName>
+                    <note>Vielen Dank</note>
+                </item>
                 <item>
                     <persName>
                         <forename>Yannik</forename>
                         <surname>Herbst</surname>
                     </persName>
                     <email>yannik.herbst@uni-wuerzburg.de</email>
-                    <note>
-                        Vielen herzlichen Dank für Ihre jahrelange Unterstützung!
-                    </note>
+                    <note> Vielen herzlichen Dank für Ihre jahrelange Unterstützung, ich wünsche
+                        Ihnen eine gute Zeit! </note>
                 </item>
-                
             </list>
         </body>
     </text>
