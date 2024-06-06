@@ -138,14 +138,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.7.0/
             </choice>
          </zeroOrMore>
       </element>
-      <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-               id="d103879028e130894-constraint">
-         <rule context="tei:content">
-            <report test="descendant::*[not(namespace-uri(.) =               ('http://relaxng.org/ns/compatibility/annotations/1.0', 'http://relaxng.org/ns/structure/1.0', 'http://www.tei-c.org/ns/1.0'))]">content descendants must be in the
-              namespaces
-              'http://relaxng.org/ns/compatibility/annotations/1.0', 'http://relaxng.org/ns/structure/1.0', 'http://www.tei-c.org/ns/1.0'</report>
-         </rule>
-      </pattern>
+      <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="d103879028e130894-constraint"><rule context="tei:content"><report test="descendant::*[not(namespace-uri(.) =('http://relaxng.org/ns/compatibility/annotations/1.0', 'http://relaxng.org/ns/structure/1.0', 'http://www.tei-c.org/ns/1.0'))]">content descendants must be in the namespaces 'http://relaxng.org/ns/compatibility/annotations/1.0', 'http://relaxng.org/ns/structure/1.0', 'http://www.tei-c.org/ns/1.0'</report></rule></pattern>
    </define>
    <define name="anyElement_constraint_4">
       <element>
@@ -191,9 +184,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/4.7.0/
       <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                id="d103879028e132273-constraint">
          <rule context="tei:datatype">
-            <report test="descendant::*[not(namespace-uri(.) =               ('http://relaxng.org/ns/structure/1.0', 'http://www.tei-c.org/ns/1.0'))]">datatype descendants must be in the
-              namespaces
-              'http://relaxng.org/ns/structure/1.0', 'http://www.tei-c.org/ns/1.0'</report>
+            <report test="descendant::*[not(namespace-uri(.) = ('http://relaxng.org/ns/structure/1.0', 'http://www.tei-c.org/ns/1.0'))]">datatype descendants must be in the namespaces 'http://relaxng.org/ns/structure/1.0', 'http://www.tei-c.org/ns/1.0'</report>
          </rule>
       </pattern>
    </define>
